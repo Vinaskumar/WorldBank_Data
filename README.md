@@ -23,7 +23,51 @@ The cleaned and processed data is stored in this CSV file. It contains relevant 
 - Data is extracted from the World Bank website using web scraping techniques.
 
 ### Transform
-- The extracted data is cleaned and structured into a uniform format, removing inconsistencies and irrelevant information.
+- The extracted data is cleaned and structured into a uniform format. During this process, the following parameters were chosen to be included in the final cleaned dataset:
+
+#### Population and Demographics
+- Population, total
+- Population growth (annual %)
+- Urban population growth (annual %)
+- Net migration
+- Surface area (sq. km)
+
+#### Economy and Finance
+- GDP (current US$)
+- Agriculture, forestry, and fishing, value added (% of GDP)
+- Industry (including construction), value added (% of GDP)
+- Exports of goods and services (% of GDP)
+- Imports of goods and services (% of GDP)
+- GDP growth (annual %)
+- Tax revenue (% of GDP)
+- Inflation, GDP deflator (annual %)
+- Foreign direct investment, net inflows (BoP, current US$)
+- Military expenditure (% of GDP)
+
+#### Education
+- School enrollment, primary (% gross)
+- School enrollment, secondary (% gross)
+- Primary completion rate, total (% of relevant age group)
+
+#### Health
+- Life expectancy at birth, total (years)
+- Mortality rate, under-5 (per 1,000 live births)
+- Immunization, measles (% of children ages 12-23 months)
+- Prevalence of HIV, total (% of population ages 15-49)
+
+#### Environment
+- CO2 emissions (metric tons per capita)
+- Forest area (sq. km)
+
+#### Infrastructure
+- Energy use (kg of oil equivalent per capita)
+- Electric power consumption (kWh per capita)
+- Mobile cellular subscriptions (per 100 people)
+
+#### Governance
+- Time required to start a business (days)
+
+These indicators provide a comprehensive view of each country's demographic, economic, educational, health, environmental, infrastructure, and governance status.
 
 ### Load
 - The cleaned data is loaded into a CSV file [world_bank_data_cleaned.csv](https://github.com/Vinaskumar/WorldBank_Data/blob/main/world_bank_data_cleaned.csv) for easy access and analysis.
