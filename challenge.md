@@ -5,13 +5,13 @@ This project involves web scraping data from the World Bank website, processing 
 
 ## Repository Structure
 
-### [WorldBank_data_scrapping.ipynb](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_scrapping.ipynb)
+### [WorldBank_data_scrapping.py](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_scrapping.py)
 This notebook contains the code for web scraping the World Bank website to obtain data for various countries. The scraping process includes extracting relevant information such as population, GDP, life expectancy, and more.
 
-### [WorldBank_data_cleaning.ipynb](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_cleaning.ipynb)
+### [WorldBank_data_cleaning.py](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_cleaning.py)
 This notebook details the data cleaning and transformation processes. The raw data obtained from scraping is cleaned and transformed into a structured format suitable for analysis and API usage.
 
-### [WorldBank_data_visualization.ipynb](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_visualization.ipynb)
+### [WorldBank_data_visualization.py](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_visualization.py)
 This notebook includes various visualizations created from the cleaned data. It explores relationships between different economic and social indicators across countries.
 
 ### [world_bank_data_cleaned.csv](https://github.com/Vinaskumar/WorldBank_Data/blob/main/world_bank_data_cleaned.csv)
@@ -81,17 +81,18 @@ To access country-specific data through the API:
 3. Hit enter to view the data.
 
 ## Visualizations
-The project includes several visualizations that provide insights into global economic and social trends. These visualizations are created using libraries like Plotly and are available in the [WorldBank_data_visualization.ipynb](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_visualization.ipynb) notebook.
+The project includes several visualizations that provide insights into global economic and social trends. These visualizations are created using libraries like Plotly and are available in the [WorldBank_data_visualization.py](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_visualization.py) notebook.
 
 ## Running the Project
 
-To run this project, you need an environment capable of executing Jupyter Notebook (`.ipynb`) files. You can either:
+To run this project, you need an environment capable of executing Python (`.py`) files. You can either:
 
-1. **Install Jupyter Notebook** locally on your machine and open the `.ipynb` files.
+1. **Install Python and necessary packages** locally on your machine. You can run the `.py` files directly from your terminal or an integrated development environment (IDE) like PyCharm, VSCode, or JupyterLab.
 
-2. **Use Google Colab** directly in your web browser, which is a free and convenient option that requires no local installation. You can upload the notebooks to Colab and run them there.
+2. **Use Google Colab**: While Colab primarily supports `.ipynb` files, you can still upload and run `.py` files by using Colab's interface. This is a free and convenient option that requires no local installation.
 
-Both options allow you to execute the code and view the visualizations included in the project.
+Both options will allow you to execute the code and view the visualizations included in the project.
+
 
 
 ## Additional Notes
