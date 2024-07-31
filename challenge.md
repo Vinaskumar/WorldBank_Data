@@ -1,7 +1,7 @@
 # World Bank Data Scraping and API Project
 
 ## Project Overview
-This project involves web scraping data from the World Bank website, processing and cleaning the data, and providing an API using FastAPI to access country-specific information. It also includes various visualizations to demonstrate data analysis.
+This project involves web scraping data from the World Bank website (https://data.worldbank.org/country), processing and cleaning the data, and providing an API using FastAPI to access country-specific information. It also includes various visualizations to demonstrate data analysis.
 
 ## Repository Structure
 
