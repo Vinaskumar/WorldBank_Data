@@ -83,6 +83,17 @@ To access country-specific data through the API:
 ## Visualizations
 The project includes several visualizations that provide insights into global economic and social trends. These visualizations are created using libraries like Plotly and are available in the [WorldBank_data_visualization.ipynb](https://github.com/Vinaskumar/WorldBank_Data/blob/main/WorldBank_data_visualization.ipynb) notebook.
 
+## Running the Project
+
+To run this project, you need an environment capable of executing Jupyter Notebook (`.ipynb`) files. You can either:
+
+1. **Install Jupyter Notebook** locally on your machine and open the `.ipynb` files.
+
+2. **Use Google Colab** directly in your web browser, which is a free and convenient option that requires no local installation. You can upload the notebooks to Colab and run them there.
+
+Both options allow you to execute the code and view the visualizations included in the project.
+
+
 ## Additional Notes
 - The project demonstrates skills in web scraping, data processing, API development, and data visualization.
 - Future improvements could include more comprehensive metadata, enhanced API documentation, or additional data visualizations.
